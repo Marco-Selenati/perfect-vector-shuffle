@@ -1,1 +1,10 @@
-resolver: lts-14.5
+resolver: nightly-2020-10-28
+
+packages:
+    - .
+
+extra-deps:
+    - github: haskell/random
+      commit: b76004f3488c74c1c4be557c5e3e878ef9f35ae9
+    - github: haskellari/splitmix
+      commit: 09b012d55473ba74b16f66ef19618ff8b3f3347e
